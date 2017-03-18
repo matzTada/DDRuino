@@ -11,6 +11,9 @@
   Modified by TadaMatz 2017/3/3
 
   inspired by https://www.youtube.com/watch?v=Mf6buDkbyAQ
+
+  Chceck GitHub (https://github.com/matzTada/DDRuino) for further information.
+  Modified by TadaMatz 2017/3/19
 *********************************************************************/
 
 #define WITH_WIRELESS_ACCELO

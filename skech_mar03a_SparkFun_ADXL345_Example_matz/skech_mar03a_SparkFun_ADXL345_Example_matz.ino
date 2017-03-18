@@ -17,6 +17,10 @@
     Hardware Specifications:
     SparkFun ADXL345
     Arduino Uno
+
+  Chceck GitHub (https://github.com/matzTada/DDRuino) for further information.
+
+  2017/3/19  modified by Tadamatz
  *  *********************************************/
 
 #include <SparkFun_ADXL345.h>         // SparkFun ADXL345 Library
@@ -117,7 +121,7 @@ void loop() {
     xbeeSendStr += String(x) + "," + String(y);
     Serial1.println(xbeeSendStr);
   }
-  
+
   ADXL_ISR();
   // You may also choose to avoid using interrupts and simply run the functions within ADXL_ISR();
   //  and place it within the loop instead.

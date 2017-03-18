@@ -1,3 +1,9 @@
+/*
+   Arrow image header
+   Check GitHub (https://github.com/matzTada/DDRuino) for further information.
+   Modified by TadaMatz 2017/3/19
+*/
+
 class Shape {
   public:
     String sname;
