@@ -1,14 +1,15 @@
 #DDRuino
+
 Minimal Dance Dance Revolution like game.  
 inspired by <https://www.youtube.com/watch?v=Mf6buDkbyAQ>  
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=yLH-KAiVZtQ
-" target="_blank"><img src="http://img.youtube.com/vi/yLH-KAiVZtQ/0.jpg " 
+" target="_blank"><img src="http://img.youtube.com/vi/yLH-KAiVZtQ/0.jpg" 
 alt="movie on youtube" width=50% border="10" /></a>  
 [movie on youtube](https://www.youtube.com/watch?v=yLH-KAiVZtQ)  
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=w3RBKo6HO3w
-" target="_blank"><img src="http://img.youtube.com/vi/w3RBKo6HO3w/0.jpg " 
+" target="_blank"><img src="http://img.youtube.com/vi/w3RBKo6HO3w/0.jpg" 
 alt="movie on youtube" width=50% border="10" /></a>  
 [movie on youtube](https://www.youtube.com/watch?v=w3RBKo6HO3w)  
 
