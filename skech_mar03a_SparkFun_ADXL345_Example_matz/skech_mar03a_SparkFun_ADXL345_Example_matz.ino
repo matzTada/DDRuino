@@ -34,6 +34,8 @@ ADXL345 adxl = ADXL345();             // USE FOR I2C COMMUNICATION
 /*      Uncomment If Attaching Interrupt       */
 //int interruptPin = 2;                 // Setup pin 2 to be the interrupt pin (for most Arduino Boards)
 
+//uncomment this if use Fio or other board having 2 or more Serial
+//#define FIO
 
 /******************** SETUP ********************/
 /*          Configure ADXL345 Settings         */
@@ -43,7 +45,9 @@ void setup() {
   Serial.println("SparkFun ADXL345 Accelerometer Hook Up Guide Example");
   Serial.println();
 
+#ifdef FIO
   Serial1.begin(9600);
+#endif
 
   adxl.powerOn();                     // Power on the ADXL345
 
@@ -119,7 +123,9 @@ void loop() {
 
     String xbeeSendStr = "";
     xbeeSendStr += String(x) + "," + String(y);
+#ifdef FIO
     Serial1.println(xbeeSendStr);
+#endif
   }
 
   ADXL_ISR();
