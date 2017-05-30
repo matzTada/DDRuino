@@ -1,4 +1,4 @@
-#DDRuino
+# DDRuino
 
 Minimal Dance Dance Revolution like game.  
 inspired by <https://www.youtube.com/watch?v=Mf6buDkbyAQ>  
@@ -13,7 +13,7 @@ alt="movie on youtube" width=50% border="10" /></a>
 alt="movie on youtube" width=50% border="10" /></a>  
 [movie on youtube](https://www.youtube.com/watch?v=w3RBKo6HO3w)  
 
-##What you need?
+## What you need?
 
 * Arduino UNO
 * LED Matrix - 1588BS
@@ -22,7 +22,7 @@ alt="movie on youtube" width=50% border="10" /></a>
 * (Optional) XBee
 * (Optional) Accelerometer  
 
-##LED Matrix  
+## LED Matrix  
 
 <a><img src="https://github.com/matzTada/DDRuino/blob/master/LEDMatrixDirection.png" 
 alt="LEDMatrixDirection" width=50%></a>  
@@ -31,10 +31,10 @@ references
 
 * <http://playground.arduino.cc/Main/DirectDriveLEDMatrix>
 
-##(Optional) Accelerometer x Wireless control
+## (Optional) Accelerometer x Wireless control
 XBees are set as AT mode.  
 
-###Sender
+### Sender
 
 * Arduino Fio v3
 * Accelerometer - ADXL345
@@ -49,7 +49,7 @@ references
 
 
 
-###Pin assign
+### Pin assign
 
 <a><img src="https://github.com/matzTada/DDRuino/blob/master/DDR_breadboard.png" 
 alt="DDR_breadboard" width=50%></a>
